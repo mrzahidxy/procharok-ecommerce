@@ -11,11 +11,11 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  padding: 20px 30px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  ${mobile({ padding: "10px 0px" })}
+  ${mobile({ padding: "10px 5px" })}
 `;
 
 const Left = styled.div`
@@ -36,6 +36,7 @@ const SeacrhContainer = styled.div`
   align-items: center;
   margin-left: 25px;
   padding: 5px;
+  ${mobile({ marginRight: "5px" })}
 `;
 
 const Input = styled.input`
@@ -50,7 +51,7 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
-  ${mobile({ fontSize: "24px" })}
+  ${mobile({ fontSize: "15px"})}
 `;
 
 const Right = styled.div`
@@ -65,8 +66,7 @@ const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
-  text-decoration: none;
-  ${mobile({ fontSize: "12px", marginLeft: "10px" })}
+  ${mobile({ fontSize: "10px", marginLeft: "10px" })}
 `;
 
 const Navbar = () => {
@@ -83,7 +83,7 @@ const Navbar = () => {
 
         <Center>
           <Link to="/" style={{ textDecoration: "none", color: "black" }}>
-            <Logo>PROCHAROK</Logo>
+            <Logo>Procharok</Logo>
           </Link>
         </Center>
 

@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
-  height: 60px;
+  height: 50px;
   font-size: 14px;
   font-weight: 500;
   background-color: teal;
